@@ -2,3 +2,29 @@ html {
   height: 100%;
   width: 100%;
 }
+/*Set border,background color, and font*/
+body {
+  border-style: dashed 5px;
+  border-color: rgb(1, 65, 1);
+  border-style: solid; 
+  background-color: rgb(117, 233, 117);
+  border-radius: 6px;
+  color: rgb(1, 65, 1);
+  padding: 14px;
+  
+ 
+ 
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-style italic; 
+  
+  
+}
+/*.listStyle {
+ 
+ border-width: 3px;
+ border-color: darkgreen;
+ border-style: solid;
+ margin: 25px;
+ margin-right: 40px;
+}*/
