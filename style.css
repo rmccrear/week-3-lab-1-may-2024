@@ -2,16 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
+.flex-container {
+  display: flex;
+ }
 /*Set border,background color, and font*/
-body {
-  border-style: dashed 5px;
-  border-color: rgb(1, 65, 1);
-  border-style: solid; 
-  background-color: rgb(117, 233, 117);
-  border-radius: 6px;
-  color: rgb(1, 65, 1);
-  padding: 14px;
-  
+li{
+  margin-left:35px;
+}
  
  
 
@@ -28,3 +25,28 @@ body {
  margin: 25px;
  margin-right: 40px;
 }*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.fullscreen-video-container {
+  position: relative;
+
+
+  overflow: hidden;
+}
+.fullscreen-video-container video {
+  position: absolute;
+
+  width: auto;
+  height: auto;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  top: 50%;
+  left: 50%;
+transform: translate(-50%,-50%);
+
+  z-index: -1;  
+}
