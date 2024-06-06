@@ -8,25 +8,16 @@ html {
 /*Set border,background color, and font*/
 li{
   margin-left:35px;
-
- 
- 
-
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: bold;
-  
-  
-}
+  }
 
 
-/*.listStyle {
+.listStyle {
+  fill-opacity: inherit;
  
- border-width: 3px;
- border-color: darkgreen;
- border-style: solid;
- margin: 25px;
- margin-right: 40px;
-}*/
+
+ }
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +51,7 @@ body {
 form {
   display: inline-block;
   /* Form outline */
-  padding: 1em;
+  padding: 3em;
   border: 1px solid #ccc;
   border-radius: 1em;
 }
@@ -110,10 +101,11 @@ textarea {
 .button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
+ 
 }
 
 button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
-  margin-left: 0.5em;
+  margin-right: 8em;
 }
